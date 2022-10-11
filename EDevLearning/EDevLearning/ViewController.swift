@@ -20,12 +20,16 @@ class ViewController: UIViewController {
             completion(user)
         }
         
+        obj.login = APIClient1.singleton.login(completion:)
+        
         
         let feed = Feed()
         let objNew = FeedViewController1()
         objNew.loadFeed = { completion in
             completion([feed])
         }
+        
+        objNew.loadFeeds()
         
     }
 
