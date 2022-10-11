@@ -17,7 +17,7 @@
 		154B3DF328F2B62F00123405 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154B3DF228F2B62F00123405 /* LoginViewController.swift */; };
 		154B3DF528F2B84300123405 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154B3DF428F2B84300123405 /* FeedViewController.swift */; };
 		154B3DF728F2B95000123405 /* InvertingDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154B3DF628F2B95000123405 /* InvertingDependency.swift */; };
-		154B3DFA28F5A85100123405 /* DependencyDiagramn.drawio in Resources */ = {isa = PBXBuildFile; fileRef = 154B3DF928F5A85100123405 /* DependencyDiagramn.drawio */; };
+		154B3E7D28F5CA0D00123405 /* DependencyDiagram.drawio in Resources */ = {isa = PBXBuildFile; fileRef = 154B3E7C28F5CA0D00123405 /* DependencyDiagram.drawio */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +33,7 @@
 		154B3DF228F2B62F00123405 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		154B3DF428F2B84300123405 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		154B3DF628F2B95000123405 /* InvertingDependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvertingDependency.swift; sourceTree = "<group>"; };
-		154B3DF928F5A85100123405 /* DependencyDiagramn.drawio */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DependencyDiagramn.drawio; sourceTree = "<group>"; };
+		154B3E7C28F5CA0D00123405 /* DependencyDiagram.drawio */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DependencyDiagram.drawio; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +93,7 @@
 		154B3DFB28F5A85500123405 /* DD */ = {
 			isa = PBXGroup;
 			children = (
-				154B3DF928F5A85100123405 /* DependencyDiagramn.drawio */,
+				154B3E7C28F5CA0D00123405 /* DependencyDiagram.drawio */,
 			);
 			path = DD;
 			sourceTree = "<group>";
@@ -156,10 +156,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				154B3E7D28F5CA0D00123405 /* DependencyDiagram.drawio in Resources */,
 				154B3DC228EF360D00123405 /* LaunchScreen.storyboard in Resources */,
 				154B3DBF28EF360D00123405 /* Assets.xcassets in Resources */,
 				154B3DBD28EF360A00123405 /* Main.storyboard in Resources */,
-				154B3DFA28F5A85100123405 /* DependencyDiagramn.drawio in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
